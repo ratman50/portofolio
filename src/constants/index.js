@@ -1,5 +1,6 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    nestjs,
     car,
     contact,
     css,
@@ -23,7 +24,13 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    laravel,
+    php,
+    postgresql,
+    angular,
+    c,
+    mysql
 } from "../assets/icons";
 
 export const skills = [
@@ -46,11 +53,44 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
+    },{
+        imageUrl: nestjs,
+        name: "nestjs",
+        type: "backend",
     },
     {
         imageUrl: html,
         name: "HTML",
         type: "Frontend",
+    },
+    ,
+    {
+        imageUrl: php,
+        name: "php",
+        type: "SGBD",
+    },
+    ,
+    {
+        imageUrl: angular,
+        name: "angular",
+        type: "Frontend",
+    },
+    ,
+    {
+        imageUrl: c,
+        name: "C",
+        type: "All",
+    },
+    ,
+    {
+        imageUrl: mysql,
+        name: "mysql",
+        type: "SGBD",
+    },
+     {
+        imageUrl: postgresql,
+        name: "postgresql",
+        type: "SGBD",
     },
     {
         imageUrl: javascript,
@@ -62,21 +102,13 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
+   
     {
         imageUrl: mui,
         name: "Material-UI",
         type: "Frontend",
     },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
+   
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -87,15 +119,16 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
+   
     {
         imageUrl: sass,
         name: "Sass",
         type: "Frontend",
+    },
+    {
+        imageUrl: laravel,
+        name:"Laravel",
+        type:"back-end"
     },
     {
         imageUrl: tailwindcss,
@@ -225,4 +258,4 @@ export const projects = [
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
-};
+];

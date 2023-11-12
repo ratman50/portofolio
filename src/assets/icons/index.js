@@ -26,14 +26,24 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import sene from './sen.png'
+import sene from './sen.png';
+import laravel from './laravel.png';
+import nestjs from "./nest.jpg";
+import php from "./php.png";
+import angular from "./angular.png";
+import c from "./c.png";
+import mysql from "./mysql.png";
+import postgresql from "./postgresql.png";
 export {
+    php, angular,c,mysql,postgresql,
+    nestjs,
     sene,
     css,
     express,
     git,
     github,
     html,
+    laravel,
     javascript,
     mongodb,
     motion,
