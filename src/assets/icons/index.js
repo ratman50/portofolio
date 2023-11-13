@@ -34,6 +34,7 @@ import angular from "./angular.png";
 import c from "./c.png";
 import mysql from "./mysql.png";
 import postgresql from "./postgresql.png";
+import sonatelAcademy from "./sonatelacademy.jpeg";
 export {
     php, angular,c,mysql,postgresql,
     nestjs,
@@ -66,5 +67,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    sonatelAcademy
 }
