@@ -1,13 +1,13 @@
-import {  Html} from "@react-three/drei";
+import { Html } from "@react-three/drei";
+
 const Loader = () => {
   return (
     <Html>
-        <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-            POPUP
-        </div>
+      <div className='flex justify-center items-center'>
+        <div className='w-20 h-20 border-2 border-opacity-20 border-blue-500 border-t-blue-500 rounded-full animate-spin'></div>
+      </div>
     </Html>
-   
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;

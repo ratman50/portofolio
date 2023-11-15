@@ -18,6 +18,7 @@ import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import car from './car.svg'
 import estate from './estate.svg'
+import LoaderSvg from "./loader.svg";
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
@@ -68,5 +69,5 @@ export {
     contact,
     soundon,
     soundoff,
-    sonatelAcademy
+    sonatelAcademy,LoaderSvg
 }
